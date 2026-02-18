@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+.header {
+  background: #ff1e1e;
+  padding: 15px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  padding: 15px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.controls button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+}
+
+.controls button:hover {
+  background: #ffecec;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #ff1e1e;
+  color: white;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  gap: 12px;
+}
+
+.list {
+  width: 30%;
+  height: 520px;
+  overflow-y: auto;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+.list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background: #f1f1f1;
+}
+
+.map {
+  width: 70%;
+  height: 520px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
